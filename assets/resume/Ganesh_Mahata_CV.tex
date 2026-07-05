@@ -1,0 +1,408 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Ganesh Mahata Resume
+% Version 2.0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,a4paper]{article}
+
+%-----------------------------------------------------------
+% Packages
+%-----------------------------------------------------------
+
+\usepackage[left=0.60in,right=0.60in,top=0.55in,bottom=0.55in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{setspace}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1.5pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Colors
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{primary}{RGB}{15,55,110}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section Formatting
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\titleformat{\section}
+{\large\bfseries\color{primary}}
+{}{0em}{}[\titlerule]
+
+\titlespacing{\section}
+{0pt}
+{6pt}
+{4pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\resumeItem}[1]{
+\item\small{#1}
+}
+
+\newcommand{\resumeProject}[4]{
+\textbf{#1}
+\hfill
+{\small #2}
+
+\textit{#3}
+
+#4
+
+\vspace{6pt}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Header
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+
+{\Huge \textbf{GANESH MAHATA}}
+
+\vspace{4pt}
+
+B.Tech Undergraduate | Biotechnology
+
+Indian Institute of Technology Delhi
+
+\vspace{4pt}
+
+\faEnvelope\
+\href{mailto:iitd.mahata@gmail.com}{iitd.mahata@gmail.com}
+\hspace{10pt}
+
+\faGithub\
+\href{https://github.com/GaneshMahata}{github.com/GaneshMahata}
+
+\hspace{10pt}
+
+\faGlobe\
+\href{https://ganeshmahata.github.io}
+{ganeshmahata.github.io}
+
+\hspace{10pt}
+
+\faLinkedin\
+LinkedIn
+
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Professional Summary
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Professional Summary}
+
+Biotechnology undergraduate at the Indian Institute of Technology Delhi with strong interests in embedded systems, Internet of Things (IoT), web development, and AI-assisted engineering. Passionate about designing practical software and hardware solutions that integrate modern technologies with real-world applications. Experienced in developing responsive websites, cloud-connected embedded systems, and technical automation projects while continuously exploring interdisciplinary engineering.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Education}
+
+\begin{tabularx}{\linewidth}{|l|X|c|c|}
+\hline
+
+\textbf{Year}
+&
+\textbf{Institute}
+&
+\textbf{Degree}
+&
+\textbf{CGPA/Marks}
+
+\\
+\hline
+
+2023--Present
+&
+Indian Institute of Technology Delhi
+&
+B.Tech Biotechnology
+&
+5.62
+
+\\
+\hline
+
+2022
+&
+Jawahar Navodaya Vidyalaya, Bankura
+&
+Class XII (CBSE)
+&
+76.4\%
+
+\\
+\hline
+
+2020
+&
+Jawahar Navodaya Vidyalaya, Bankura
+&
+Class X (CBSE)
+&
+80\%
+
+\\
+\hline
+
+\end{tabularx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Technical Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Technical Skills}
+
+\textbf{Programming Languages}
+
+Python, C, C++, HTML5, CSS3, JavaScript, SQL
+
+\vspace{3pt}
+
+\textbf{Web Development}
+
+Responsive Web Design, GitHub Pages, Frontend Development
+
+\vspace{3pt}
+
+\textbf{Embedded Systems}
+
+ESP32, ESP8266, Arduino, NodeMCU, RFID, OLED Displays, IoT Sensors
+
+\vspace{3pt}
+
+\textbf{Databases}
+
+Firebase, Supabase, PostgreSQL (Learning)
+
+\vspace{3pt}
+
+\textbf{Developer Tools}
+
+Git, GitHub, VS Code, Grafana, LTspice, SimulIDE, Canva
+
+\vspace{3pt}
+
+\textbf{Areas of Interest}
+
+Artificial Intelligence,
+Internet of Things,
+Embedded Systems,
+Automation,
+Biotechnology,
+Software Engineering,
+Research,
+Open Source Development
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Projects}
+
+\resumeProject
+{Student Management System}
+{2026}
+{Full Stack Web Application}
+{
+\begin{itemize}[leftmargin=*]
+
+\resumeItem{Designed and developed a modern student management portal with responsive user interface and modular architecture.}
+
+\resumeItem{Implemented secure authentication, student record management, and role-based administrative features.}
+
+\resumeItem{Focused on scalable design, clean navigation, and maintainable project structure using modern web technologies.}
+
+\end{itemize}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\resumeProject
+{Department Website}
+{2026}
+{Frontend Development}
+{
+\begin{itemize}[leftmargin=*]
+
+\resumeItem{Developed a responsive departmental website featuring semester-wise course resources and academic information.}
+
+\resumeItem{Improved usability through intuitive navigation, mobile-friendly layouts, and optimized performance.}
+
+\resumeItem{Maintained project using Git and GitHub with structured version control workflow.}
+
+\end{itemize}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\resumeProject
+{ESP32 IoT Monitoring System}
+{2026}
+{Embedded Systems}
+{
+\begin{itemize}[leftmargin=*]
+
+\resumeItem{Built an IoT monitoring platform using ESP32 for real-time sensor data acquisition and cloud communication.}
+
+\resumeItem{Integrated wireless connectivity and live monitoring concepts for remote device management.}
+
+\resumeItem{Explored scalable embedded system architecture for future automation applications.}
+
+\end{itemize}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\resumeProject
+{Grafana Dashboard Integration}
+{2026}
+{Data Visualization}
+{
+\begin{itemize}[leftmargin=*]
+
+\resumeItem{Designed interactive dashboards to visualize sensor and monitoring data using Grafana.}
+
+\resumeItem{Configured data sources and optimized dashboard layouts for clear presentation of real-time information.}
+
+\resumeItem{Investigated cloud-based monitoring workflows for engineering applications.}
+
+\end{itemize}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\resumeProject
+{Personal Portfolio Website}
+{2026}
+{Web Development}
+{
+\begin{itemize}[leftmargin=*]
+
+\resumeItem{Designed and developed a responsive personal portfolio showcasing projects, technical skills, achievements, and resume.}
+
+\resumeItem{Implemented dark/light theme, responsive layouts, and modern UI components for enhanced user experience.}
+
+\resumeItem{Optimized the website for GitHub Pages deployment with fast loading and clean architecture.}
+
+\end{itemize}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Research Interests
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Research Interests}
+
+Artificial Intelligence \textbullet\
+Embedded Systems \textbullet\
+Internet of Things \textbullet\
+Biotechnology \textbullet\
+Automation \textbullet\
+Biomedical Devices \textbullet\
+Software Engineering \textbullet\
+Open Source Technologies
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Achievements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Achievements}
+
+\begin{itemize}[leftmargin=*]
+
+\resumeItem{Qualified Joint Entrance Examination (JEE) and secured admission to the Indian Institute of Technology Delhi.}
+
+\resumeItem{Recipient of multiple merit-based scholarship opportunities during academic journey.}
+
+\resumeItem{Continuously expanding practical expertise through self-driven engineering and software development projects.}
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Positions of Responsibility
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Positions of Responsibility}
+
+\textbf{RDV Security Team}
+
+Indian Institute of Technology Delhi
+
+\begin{itemize}[leftmargin=*]
+
+\resumeItem{Contributed to crowd management and event operations during IIT Delhi's annual cultural festival.}
+
+\resumeItem{Worked collaboratively with volunteers to ensure smooth coordination and safe execution of large-scale events.}
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Extra Curricular Activities
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Extra Curricular Activities}
+
+\begin{itemize}[leftmargin=*]
+
+\resumeItem{Actively participate in athletics and sports activities at IIT Delhi.}
+
+\resumeItem{Strong interest in electronics prototyping, embedded systems, and open-source software development.}
+
+\resumeItem{Continuously explore emerging technologies through independent learning and hands-on projects.}
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Languages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Languages}
+
+English \hspace{12pt}
+Hindi \hspace{12pt}
+Bengali
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Declaration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{6pt}
+
+\begin{center}
+
+\rule{0.45\linewidth}{0.4pt}
+
+\vspace{2pt}
+
+{\small
+Last Updated: July 2026
+}
+
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
