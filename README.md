@@ -12,7 +12,7 @@ A complete, modern, and fully responsive personal portfolio website built with p
 
 ## 🌐 Live Site
 
-**[https://MahataG.github.io](https://MahataG.github.io)**
+**[https://ganeshmahata.github.io](https://ganeshmahata.github.io)**
 
 ---
 
