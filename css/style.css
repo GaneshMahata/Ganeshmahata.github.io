@@ -227,10 +227,21 @@ code {
   margin-bottom: var(--spacing-md);
   border: 1px solid rgba(99, 102, 241, 0.2);
 }
+.cert-icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--spacing-md);
+  font-size: 2.5rem;
+}
+
 .cert-icon img {
   width: 42px;
   height: 42px;
   object-fit: contain;
+  display: block;
 }
 .section-title {
   font-size: clamp(1.75rem, 3.5vw, 2.75rem);
