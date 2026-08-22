@@ -1478,11 +1478,6 @@ code {
   box-shadow: var(--shadow-lg);
 }
 
-.cert-icon {
-  font-size: 2.5rem;
-  margin-bottom: var(--spacing-md);
-}
-
 .cert-issuer {
   font-size: 0.78rem;
   font-weight: 600;
