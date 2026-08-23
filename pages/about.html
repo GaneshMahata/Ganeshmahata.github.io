@@ -22,6 +22,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/certificates.css">
   <link rel="stylesheet" href="../css/dark.css" />
   <link rel="stylesheet" href="../css/responsive.css" />
   <script src="../js/theme.js"></script>
@@ -708,86 +709,578 @@
       </div>
     </section>
 
-    <!-- ═══════════════════════════════════════════════════════════
-         CERTIFICATES
-    ═══════════════════════════════════════════════════════════ -->
-    <section id="certs" class="section" aria-labelledby="certs-heading">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-tag">🏆 Certificates</div>
-          <h2 id="certs-heading" class="section-title">Certifications &amp; Achievements</h2>
-          <p class="section-subtitle">
-            Online courses and certifications demonstrating continuous learning across disciplines.
-          </p>
-        </div>
+<!-- ═══════════════════════════════════════════════════════════
+     CERTIFICATES
+═══════════════════════════════════════════════════════════ -->
 
-        <div class="cert-grid">
-          <div class="cert-card reveal delay-7">
-            <div class="cert-icon"> <img src="../assets/icons/aws.svg" alt="Amazon Web Services logo"> </div>
-            <div class="cert-issuer">AI / Generative AI</div>
-            <h3 class="cert-title">Foundations of Prompt Engineering</h3>
-            <p class="cert-date">📅 AWS Skill Builder — Completed</p>
-            <a href="../assets/certificates/aws-foundations-of-prompt-engineering.pdf"
-              class="cert-btn"
-              target="_blank"
-              rel="noopener noreferrer">
-              View Certificate
-            </a>
-          </div>
-          <div class="cert-card reveal delay-1">
-            <div class="cert-icon"><img src="../assets/icons/python.svg"></div>
-            <div class="cert-issuer">Python / Programming</div>
-            <h3 class="cert-title">Python Programming Fundamentals</h3>
-            <p class="cert-date">📅 Online Course — Completed</p>
-          </div>
+<section id="certs" class="section" aria-labelledby="certs-heading">
 
-          <div class="cert-card reveal delay-2">
-            <div class="cert-icon">🌐</div>
-            <div class="cert-issuer">Web Development</div>
-            <h3 class="cert-title">HTML, CSS &amp; JavaScript — Full Course</h3>
-            <p class="cert-date">📅 Online Course — Completed</p>
-          </div>
+  <div class="container">
 
-          <div class="cert-card reveal delay-3">
-            <div class="cert-icon">🔌</div>
-            <div class="cert-issuer">Embedded Systems</div>
-            <h3 class="cert-title">Arduino &amp; ESP32 Development</h3>
-            <p class="cert-date">📅 Hands-on Project Learning</p>
-          </div>
+    <!-- Section Header -->
 
-          <div class="cert-card reveal delay-4">
-            <div class="cert-icon"><img src="../assets/icons/github.svg"></div>
-            <div class="cert-issuer">Developer Tools</div>
-            <h3 class="cert-title">Git &amp; GitHub — Version Control</h3>
-            <p class="cert-date">📅 Online Course — Completed</p>
-          </div>
+    <div class="section-header">
 
-          <div class="cert-card reveal delay-5">
-            <div class="cert-icon">📊</div>
-            <div class="cert-issuer">Data Visualization</div>
-            <h3 class="cert-title">Grafana Dashboard Fundamentals</h3>
-            <p class="cert-date">📅 Self-study — Completed</p>
-          </div>
-
-          <div class="cert-card reveal delay-6">
-            <div class="cert-icon">🔥</div>
-            <div class="cert-issuer">Cloud / Database</div>
-            <h3 class="cert-title">Firebase &amp; Supabase Integration</h3>
-            <p class="cert-date">📅 Project-based Learning</p>
-          </div>
-
-        </div>
-        
-
-        <div class="cert-placeholder reveal" style="margin-top: 2rem;">
-          <div style="font-size: 2rem; margin-bottom: 0.75rem;">📂</div>
-          <p style="font-size: 0.9rem; color: var(--text-muted);">
-            More certificates and documents can be found in the
-            <code>assets/certificates/</code> directory.
-          </p>
-        </div>
+      <div class="section-tag">
+        🏆 LEARNING & ACHIEVEMENTS
       </div>
-    </section>
+
+      <h2 id="certs-heading" class="section-title">
+        Certifications  <!--&amp; Achievements -->
+      </h2>
+
+      <p class="section-subtitle">
+        A collection of courses, certifications, and learning achievements completed during my academic and professional journey.
+      </p>
+
+    </div>
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         CERTIFICATION LIST
+    ═══════════════════════════════════════════════════════ -->
+
+    <div class="certificates-list">
+
+      
+      <!-- AWS CERTIFICATION -->
+
+      <article class="certificate-row reveal">
+
+        <!-- Logo -->
+
+        <div class="certificate-logo">
+
+          <img
+            src="../assets/icons/aws.svg"
+            alt="Amazon Web Services logo">
+
+        </div>
+
+
+        <!-- Information -->
+
+        <div class="certificate-info">
+
+          <span class="certificate-category">
+            AI / GENERATIVE AI
+          </span>
+
+          <h3 class="certificate-title">
+            Foundations of Prompt Engineering
+          </h3>
+
+          <p class="certificate-meta">
+
+            <span>AWS Skill Builder</span>
+
+            <span class="separator">•</span>
+
+            <span>Completed</span>
+
+            <span class="separator">•</span>
+
+            <span>August 2026</span>
+
+          </p>
+
+        </div>
+
+
+        <!-- Actions -->
+
+        <div class="certificate-actions">
+
+          <!--
+            Normal left click:
+            Opens PDF in popup.
+
+            Right click:
+            Normal browser menu.
+
+            Ctrl/Cmd + click:
+            Opens PDF in new tab.
+          -->
+
+          <a
+            href="../assets/certificates/aws-foundations-of-prompt-engineering.pdf"
+            class="certificate-btn certificate-btn-primary"
+            data-certificate
+            data-title="Foundations of Prompt Engineering">
+
+            📄 View Certificate
+
+          </a>
+
+
+          <button
+            type="button"
+            class="certificate-btn certificate-btn-secondary"
+            data-certificate-details>
+
+            View More
+
+          </button>
+
+        </div>
+
+      </article>
+      <!-- LinkedIn Learning — Discover the Possibilities of Generative AI -->
+
+        <article class="certificate-row reveal">
+
+          <div class="certificate-logo">
+            <div class="linkedin-learning-logo">
+              in
+            </div>
+          </div>
+
+          <div class="certificate-info">
+
+            <span class="certificate-category">
+              GENERATIVE AI
+            </span>
+
+            <h3 class="certificate-title">
+              Discover the Possibilities of Generative AI
+            </h3>
+
+            <p class="certificate-meta">
+              <span>LinkedIn Learning</span>
+              <span class="separator">•</span>
+              <span>Completed</span>
+              <span class="separator">•</span>
+              <span>August 22, 2026</span>
+            </p>
+
+          </div>
+
+          <div class="certificate-actions">
+
+            <a
+              href="../assets/certificates/Discover-the-Possibilities-of-Generative-AI.pdf"
+              class="certificate-btn certificate-btn-primary"
+              data-certificate
+              data-title="Discover the Possibilities of Generative AI">
+              📄 View Certificate
+            </a>
+
+            <button
+              type="button"
+              class="certificate-btn certificate-btn-secondary"
+              data-certificate-details="linkedin-generative-ai">
+              View More
+            </button>
+
+          </div>
+
+        </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     CERTIFICATE PDF VIEWER
+═══════════════════════════════════════════════════════════ -->
+
+<div
+  class="certificate-modal"
+  id="certificateModal"
+  aria-hidden="true">
+
+  <div
+    class="certificate-modal-backdrop"
+    data-close-certificate>
+  </div>
+
+
+  <div
+    class="certificate-modal-box"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="certificateModalTitle">
+
+
+    <!-- Modal Header -->
+
+    <div class="certificate-modal-header">
+
+      <div>
+
+        <span class="certificate-modal-label">
+          CERTIFICATE
+        </span>
+
+        <h2 id="certificateModalTitle">
+          Foundations of Prompt Engineering
+        </h2>
+
+      </div>
+
+
+      <button
+        type="button"
+        class="certificate-close"
+        data-close-certificate
+        aria-label="Close certificate">
+
+        &times;
+
+      </button>
+
+    </div>
+
+
+    <!-- Browser PDF Viewer -->
+
+    <div class="certificate-pdf-viewer">
+
+      <iframe
+        id="certificateFrame"
+        title="AWS certificate PDF viewer">
+      </iframe>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     CERTIFICATE DETAILS POPUP
+═══════════════════════════════════════════════════════════ -->
+
+<div
+  class="certificate-details-modal"
+  id="certificateDetailsModal"
+  aria-hidden="true">
+
+  <div
+    class="certificate-details-backdrop"
+    data-close-details>
+  </div>
+
+
+  <div
+    class="certificate-details-box"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="detailsTitle">
+
+
+    <!-- Header -->
+
+    <div class="certificate-details-header">
+
+      <div>
+
+        <span class="certificate-modal-label">
+          CERTIFICATION DETAILS
+        </span>
+
+        <h2 id="detailsTitle">
+          Foundations of Prompt Engineering
+        </h2>
+
+      </div>
+
+
+      <button
+        type="button"
+        class="certificate-close"
+        data-close-details
+        aria-label="Close details">
+
+        &times;
+
+      </button>
+
+    </div>
+
+
+    <!-- Information -->
+
+    <div class="certificate-details-content">
+
+
+      <div class="certificate-detail">
+
+        <span class="detail-label">
+          Provider
+        </span>
+
+        <span class="detail-value">
+          AWS Skill Builder
+        </span>
+
+      </div>
+
+
+      <div class="certificate-detail">
+
+        <span class="detail-label">
+          Category
+        </span>
+
+        <span class="detail-value">
+          AI / Generative AI
+        </span>
+
+      </div>
+
+
+      <div class="certificate-detail">
+
+        <span class="detail-label">
+          Status
+        </span>
+
+        <span class="detail-value">
+          Completed
+        </span>
+
+      </div>
+
+
+      <div class="certificate-detail">
+
+        <span class="detail-label">
+          Completion Date
+        </span>
+
+        <span class="detail-value">
+          August 2026
+        </span>
+
+      </div>
+
+
+      <div class="certificate-detail">
+
+        <span class="detail-label">
+          Course
+        </span>
+
+        <span class="detail-value">
+          Foundations of Prompt Engineering
+        </span>
+
+      </div>
+
+
+      <div class="certificate-detail">
+
+        <span class="detail-label">
+          Description
+        </span>
+
+        <p class="detail-description">
+          This course introduces the foundations of prompt
+          engineering and covers principles, techniques,
+          best practices, advanced prompting approaches,
+          prompt misuse, and bias mitigation.
+        </p>
+
+      </div>
+
+
+      <div class="certificate-detail">
+
+        <span class="detail-label">
+          Key Topics
+        </span>
+
+        <p class="detail-description">
+          Foundation Models · Prompt Engineering ·
+          Zero-shot Prompting · Few-shot Prompting ·
+          Advanced Prompt Techniques ·
+          Model-specific Techniques ·
+          Prompt Misuse · Bias Mitigation
+        </p>
+
+      </div>
+
+
+      <div class="certificate-detail">
+
+        <span class="detail-label">
+          Source
+        </span>
+
+        <a
+          href="https://explore.skillbuilder.aws/learn/courses/17763/foundations-of-prompt-engineering"
+          class="certificate-source"
+          target="_blank"
+          rel="noopener noreferrer">
+
+          AWS Skill Builder &rarr;
+
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</div>
+        <!-- ═══════════════════════════════════════════════════════════
+     LINKEDIN LEARNING DETAILS POPUP
+═══════════════════════════════════════════════════════════ -->
+
+<div
+  class="certificate-details-modal"
+  id="linkedinDetailsModal"
+  aria-hidden="true">
+
+  <div
+    class="certificate-details-backdrop"
+    data-close-linkedin-details>
+  </div>
+
+  <div
+    class="certificate-details-box"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="linkedinDetailsTitle">
+
+    <div class="certificate-details-header">
+
+      <div>
+
+        <span class="certificate-modal-label">
+          CERTIFICATION DETAILS
+        </span>
+
+        <h2 id="linkedinDetailsTitle">
+          Discover the Possibilities of Generative AI
+        </h2>
+
+      </div>
+
+      <button
+        type="button"
+        class="certificate-close"
+        data-close-linkedin-details
+        aria-label="Close details">
+
+        &times;
+
+      </button>
+
+    </div>
+
+    <div class="certificate-details-content">
+
+      <div class="certificate-detail">
+        <span class="detail-label">Provider</span>
+        <span class="detail-value">LinkedIn Learning</span>
+      </div>
+
+      <div class="certificate-detail">
+        <span class="detail-label">Category</span>
+        <span class="detail-value">
+          Artificial Intelligence / Generative AI
+        </span>
+      </div>
+
+      <div class="certificate-detail">
+        <span class="detail-label">Level</span>
+        <span class="detail-value">Beginner</span>
+      </div>
+
+      <div class="certificate-detail">
+        <span class="detail-label">Instructor</span>
+        <span class="detail-value">
+          Ashley Kennedy
+          <br>
+          <small>
+            Managing Staff Instructor at LinkedIn Learning
+          </small>
+        </span>
+      </div>
+
+      <div class="certificate-detail">
+        <span class="detail-label">Completed</span>
+        <span class="detail-value">
+          August 22, 2026
+        </span>
+      </div>
+
+      <div class="certificate-detail">
+        <span class="detail-label">Duration</span>
+        <span class="detail-value">
+          Approximately 11 minutes
+        </span>
+      </div>
+
+      <div class="certificate-detail">
+        <span class="detail-label">Skills</span>
+        <p class="detail-description">
+          AI for Business ·
+          Artificial Intelligence for Design ·
+          Artificial Intelligence (AI) ·
+          Generative AI
+        </p>
+      </div>
+
+      <div class="certificate-detail">
+        <span class="detail-label">About the Course</span>
+        <p class="detail-description">
+          This quick-start course explains how generative AI
+          works, how it is trained, and its impact on content
+          creation and business strategy. It covers
+          AI-generated text, images, video, and audio, and
+          teaches how to engage with these tools through
+          prompting and iteration. The course also discusses
+          ethical considerations and the evolving role of
+          humans working alongside AI.
+        </p>
+      </div>
+
+      <div class="certificate-detail">
+        <span class="detail-label">Certificate ID</span>
+        <span class="detail-value certificate-id">
+          ff4912725af2656a56f028cb478dd22caccd11d627c2a52af662d60192205de7
+        </span>
+      </div>
+
+      <div class="certificate-detail">
+        <span class="detail-label">Certificate Signatory</span>
+        <span class="detail-value">
+          Shea Hanson
+          <br>
+          <small>
+            Head of Learning Content Strategy
+          </small>
+        </span>
+      </div>
+
+      <div class="certificate-detail">
+        <span class="detail-label">Source</span>
+
+        <a
+          href="https://www.linkedin.com/learning/discover-the-possibilities-of-generative-ai/generative-ai-tools-and-personalized-content"
+          class="certificate-source"
+          target="_blank"
+          rel="noopener noreferrer">
+
+          LinkedIn Learning &rarr;
+
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
 
     <!-- ═══════════════════════════════════════════════════════════
          HOBBIES
@@ -911,6 +1404,7 @@
 
   <script src="../js/main.js"></script>
   <script src="../js/animation.js"></script>
+  <script src="../js/certificates.js"></script>
   <script>
     // Skills tabs
     document.querySelectorAll('.skill-tab-btn').forEach(btn => {
